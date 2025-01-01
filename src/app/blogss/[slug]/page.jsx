@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { client } from "../../../sanity/lib/client";
 import { urlForImage } from "../../../sanity/lib/image";
-import { PortableText } from "@portabletext/react";
+// import { PortableText } from "@portabletext/react";
 
 export const revalidate = 5;
 
@@ -56,7 +56,7 @@ export default async function Page({ params }) {
         </section>
 
         <section className="text-lg leading-normal text-dark/80 dark:text-light/80 prose-h4:text-accentDarkPrimary prose-h4:text-3xl prose-h4:font-bold prose-li:list-disc prose-li:list-inside prose-li:marker:text-accentDarkSecondary prose-strong:text-dark dark:prose-strong:text-white">
-          <PortableText value={blog.content} />
+          {/* <PortableText value={blog.content} /> */}
         </section>
       </article>
     );
