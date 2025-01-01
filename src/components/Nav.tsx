@@ -1,5 +1,6 @@
 // import Link from "next/link";
-import Image from "next/image";
+
+import Link from "next/link";
 
 export default function Pricing() {
   return (
@@ -11,9 +12,9 @@ export default function Pricing() {
         </h2>
       </header>
 
-      <div className="h-[1240px] w-[48px] text-[#000000] relative top-[24px] left-[100px] gap-[40px] flex">
-        <div className="h-[160px] w-[22px] font-bold text-[32px] leading-[34.8px] flex max:sm-text-[25.2px] ">
-          Blogger
+      <div className="h-[1240px] w-[148px] text-[#000000] relative top-[24px] left-[100px] gap-[40px] flex">
+        <div className="h-[160px] w-[222px] font-bold text-[32px] leading-[34.8px] flex max:sm-text-[25.2px] ">
+          BloggerTech
         
         <div className="h-[321px] w-[22px] relative left-[120px] gap-[24px] ">
           {/* <div className=" w-[360px] gap-[24px] flex font-normal justify-between mt-[5.5px] items-center leading-[21.6px] text-[16px] ">
@@ -34,6 +35,10 @@ export default function Pricing() {
         </div>
         {/*    <div className="h-[1240px] w-[48px]">
         </div>      */}
+
+<Link className="text-[23px] font-medium" href="/">Home        </Link>
+
+
         <div className="h-[577px] w-[48px]    ">
           <input className="bg-[#F0F0F0] rounded-[62px]  relative pt-[0px] pr-[16px] pb-[12px] pl-[16px] left-[670px] max-ss:hidden " type="search" placeholder="Search Blogs here..."></input>
         </div>  

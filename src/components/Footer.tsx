@@ -3,7 +3,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaYoutube,  FaLandmark } from 'reac
 
 export default function Footer(){
     return(
-        <div className="max-ss:w-[440px] max-ss:h-[340px] max-ss:mt-[440px] w-[1440px] h-[331px] bg-[rgb(17,17,17)] ">
+        <div className="max-2xl:mt-6 max-ss:w-[440px] max-ss:h-[340px] max-ss:mt-[440px] w-[1440px] h-[331px] bg-[rgb(17,17,17)] ">
         <footer className="  h-[241px]   flex text-[#FFFFFF] ml-[200px] max-ss:ml-5 ">
 <div className='flex ml-[34px]  mt-[40px] '>
 <div className='w-[245px] '> 

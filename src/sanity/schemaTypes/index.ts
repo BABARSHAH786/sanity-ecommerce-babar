@@ -10,13 +10,12 @@
 // gemini type error resolve
 
 import { type SchemaTypeDefinition } from 'sanity'
-import blog from '../blog';
-import news from '../[slug]/news';
+import {blog} from '../blog';
 import { post } from '../post';
 
 
 export const schema: { types: SchemaTypeDefinition[] } = {
-  types: [blog, news,post] // Use a comma to separate array elements
+  types: [blog,post] // Use a comma to separate array elements
 };
 
 // grog *[_type == 'post']  | order() {
