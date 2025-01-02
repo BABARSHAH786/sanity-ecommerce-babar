@@ -7,11 +7,11 @@ export default function Footer(){
         <footer className="  h-[241px]   flex text-[#FFFFFF] ml-[200px] max-ss:ml-5 ">
 <div className='flex ml-[34px]  mt-[40px] '>
 <div className='w-[245px] '> 
-<li className=" list-none font-semibold text-[19px] mb-[20px]">Latest Blog</li>
+<li className=" list-none font-semibold text-[19px] mb-[20px]">Latest Shoes</li>
 <div className='text-[10px] gap-[20px] grid '>
-<li className="list-none text-[16px]">Old blog</li>
-<li className="list-none text-[16px]">Category</li>
-<li className="list-none text-[16px]">Publish blog</li>
+<li className="list-none text-[16px]">Child Collection</li>
+<li className="list-none text-[16px]">Men</li>
+<li className="list-none text-[16px]">Womennpm </li>
 </div>
 
 </div>
